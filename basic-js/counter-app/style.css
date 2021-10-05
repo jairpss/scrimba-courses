@@ -1,0 +1,32 @@
+* {
+  font-family: "arial";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin-bottom: 10px;
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.plus {
+  background-color: royalblue;
+}
+
+.save {
+  background-color: #5cf3b4;
+}
