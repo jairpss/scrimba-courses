@@ -7,6 +7,18 @@ btnWorker.addEventListener("click", startTimer)
 shortBreakBtn.addEventListener("click", startTimer)
 longBreakBtn.addEventListener("click", startTimer)
 
+function startWork() {
+    typeOfCountdown = "work"
+}
+
+function startShortBreak() {
+    typeOfCountdown = "shortBreak"
+}
+
+function startLongBreak() {
+    typeOfCountdown = "longBreak"
+}
+
 function startTimer() {
     const workTimeSeconds = 1500
     const time = 0
