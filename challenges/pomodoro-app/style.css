@@ -30,12 +30,12 @@ button {
   width: 12em;
   background-color: tomato;
   align-items: center;
-  padding: 1em;
+  padding: 1em 2em;
   margin-bottom: 1.5em;
 }
 
 .timer p {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 button {
