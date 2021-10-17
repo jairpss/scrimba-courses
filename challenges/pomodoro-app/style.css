@@ -21,6 +21,12 @@ body {
   height: 100vh;
 }
 
+.title {
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .timer,
 button {
   margin: 0.5em;
